@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestAll">
+    <test name="FirstTests">
+
+        <classes>
+            <class name="Package.TestClass_A"/>
+            <class name="Package.TestClass_B"/>
+            <class name="Package.TestClass_C"/>
+        </classes>
+    </test>
+
+    <test name="SecondTests">
+        <classes>
+            <class name="Package.TestClass_D"/>
+        </classes>
+    </test>
+
+</suite>
